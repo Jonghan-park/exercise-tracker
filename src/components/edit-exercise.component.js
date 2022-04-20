@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export default class EditExercises extends Component{
   render(){
@@ -6,6 +6,6 @@ export default class EditExercises extends Component{
       <div>
         <p>You are on the Edit Exercises component !</p>
       </div>
-    );
+    )
   }
 }
