@@ -6,6 +6,6 @@ export default class ExercisesList extends Component{
       <div>
         <p>You are on the Exercise List component !</p>
       </div>
-    )
+    );
   }
 }

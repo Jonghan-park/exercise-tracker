@@ -5,6 +5,6 @@ export default class CreateExercises extends Component{
       <div>
         <p>You are on the Create Exercises component !</p>
       </div>
-    )
+    );
   }
 }

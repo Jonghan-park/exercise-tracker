@@ -6,6 +6,6 @@ export default class CreateUsers extends Component{
       <div>
         <p>You are on the Create Users component !</p>
       </div>
-    )
+    );
   }
 }

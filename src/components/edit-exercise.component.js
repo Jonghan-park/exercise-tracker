@@ -6,6 +6,6 @@ export default class EditExercises extends Component{
       <div>
         <p>You are on the Edit Exercises component !</p>
       </div>
-    )
+    );
   }
 }
