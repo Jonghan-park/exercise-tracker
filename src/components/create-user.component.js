@@ -19,6 +19,13 @@ export default class CreateUsers extends Component{
     }
   }
 
+  componentDidMount(){
+    this.setState({
+      users: ['test user'],
+      username:'test user'
+    })
+  }
+
   onChangeUsername(e){
     this.setState({
       username: e.target.value
