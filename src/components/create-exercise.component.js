@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import DatePicker from 'react-datepicker';
+import "react-datepicker/dist/react-datepicker.css"
+
 export default class CreateExercises extends Component{
   constructor(props){
     super(props);
@@ -40,7 +43,7 @@ export default class CreateExercises extends Component{
       duration: e.target.value
     });
   }
-  onChangeDate(e){
+  onChangeDate(date){
     this.setState({
       date: date
     });
